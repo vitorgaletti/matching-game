@@ -1,5 +1,5 @@
-.player {
-  font-size: 10px;
+.player-name {
+  font-size: 1rem;
   line-height: 10px;
   color: var(--color-floral-white);
 }
