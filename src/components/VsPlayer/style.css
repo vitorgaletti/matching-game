@@ -1,0 +1,10 @@
+.vs-player {
+  width: 16px;
+  height: 8px;
+
+  font-size: 8px;
+  line-height: 8px;
+  text-align: center;
+
+  color: var(--color-sandstorm);
+}

@@ -14,11 +14,3 @@ $root.insertAdjacentHTML(
     ${BoardGame(6)}
   `
 );
-
-const $cardGame = document.querySelectorAll('.card-game');
-
-function flipCard() {
-  this.classList.toggle('flip');
-}
-
-$cardGame.forEach(card => card.addEventListener('click', flipCard));

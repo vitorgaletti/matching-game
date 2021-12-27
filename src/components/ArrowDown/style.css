@@ -1,0 +1,18 @@
+.arrow {
+  width: 20px;
+  height: 15px;
+  background-image: url('../images/arrowdown.png');
+
+  position: absolute;
+  top: 2px;
+}
+
+.arrow.player-1 {
+  margin-right: 8.85rem;
+  transition: margin-right 300ms ease-out;
+}
+
+.arrow.player-2 {
+  margin-left: 8.85rem;
+  transition: margin-left 300ms ease-out;
+}
