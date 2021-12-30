@@ -1,7 +1,6 @@
 .arrow {
   width: 20px;
   height: 15px;
-  background-image: url('../images/arrowdown.png');
 
   position: absolute;
   top: 2px;

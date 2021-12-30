@@ -2,7 +2,7 @@ import './style.css';
 
 function ArrowDown() {
   return /*html*/ `
-      <div class="arrow player-1"></div>
+      <img src="./images/arrowdown.png" alt="Icone de uma seta para baixo" />
   `;
 }
 
