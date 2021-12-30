@@ -1,17 +1,10 @@
-.arrow {
-  width: 20px;
-  height: 15px;
-
+.arrow-down {
   position: absolute;
-  top: 2px;
+  top: 4px;
+  transform: translateX(-44px);
+  transition: transform 300ms ease-in-out;
 }
 
-.arrow.player-1 {
-  margin-right: 8.85rem;
-  transition: margin-right 300ms ease-out;
-}
-
-.arrow.player-2 {
-  margin-left: 8.85rem;
-  transition: margin-left 300ms ease-out;
+.arrow-down[data-currentPlayer='2'] {
+  transform: translateX(44px);
 }
